@@ -118,7 +118,7 @@ function authPopupPlugin(): Plugin {
 }
 
 const githubPages = process.env.GITHUB_PAGES === "1";
-const PAGES_BASE = "/yonder-spark-palm-baker/";
+const PAGES_BASE = "/";
 
 function githubPagesManifestPlugin(): Plugin {
   return {
